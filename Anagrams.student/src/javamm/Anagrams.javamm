@@ -1,0 +1,32 @@
+import java.util.*;
+boolean anagrams(int[] s, int[] t) {
+		Map <Integer,Integer> mappaS = check(s);
+		Map <Integer,Integer> mappaT = check(t);
+		if (mappaS.size()!=mappaT.size()) {
+            return false;
+        }
+        
+		else{
+			 for (int chiave : mappaS.keySet()) {
+			 
+			 	if(!mappaT.containsKey(chiave)|| !mappaT.get(chiave).equals(mappaS.get(chiave))){
+			 		return false;
+			 	}
+			 }
+        }
+        return true;
+}
+
+
+Map check (int[] a){
+	Map <Integer,Integer> mappa = new HashMap<>();
+	for(int i=0;i<a.length;i++){
+		if(mappa.containsKey(a[i])){
+			mappa.put(a[i], mappa.get(a[i])+1);
+		}
+		else{
+			mappa.put(a[i],1);
+		}
+	}
+	return mappa;
+}

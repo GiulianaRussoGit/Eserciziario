@@ -1,0 +1,11 @@
+boolean party(int c, boolean s) {
+	if(s && c<=100){
+		return true;
+	}
+	else if(s == false && c<=40){
+		return true;
+	}
+	else{
+		return false;
+	}
+}

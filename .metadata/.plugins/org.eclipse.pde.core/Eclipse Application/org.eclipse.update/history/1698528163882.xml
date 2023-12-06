@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1698528163882" transient="false" version="3.0">
+<site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
+<feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_2.3.800.v20211124-1800/" version="2.3.800.v20211124-1800">
+</feature>
+<feature id="org.eclipse.jdt" url="features/org.eclipse.jdt_3.18.1000.v20211124-1800/" version="3.18.1000.v20211124-1800">
+</feature>
+<feature id="org.eclipse.xtext.xbase.lib" url="features/org.eclipse.xtext.xbase.lib_2.25.0.v20210301-0822/" version="2.25.0.v20210301-0822">
+</feature>
+<feature id="org.eclipse.emf.common" url="features/org.eclipse.emf.common_2.24.0.v20210924-1718/" version="2.24.0.v20210924-1718">
+</feature>
+<feature id="org.eclipse.equinox.p2.core.feature" url="features/org.eclipse.equinox.p2.core.feature_1.6.1200.v20211104-1616/" version="1.6.1200.v20211104-1616">
+</feature>
+<feature id="org.eclipse.ecf.core.ssl.feature" url="features/org.eclipse.ecf.core.ssl.feature_1.1.501.v20210409-2301/" version="1.1.501.v20210409-2301">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.ssl.feature" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.401.v20210409-2301/" version="1.1.401.v20210409-2301">
+</feature>
+<feature id="jbase.ui.feature" url="features/jbase.ui.feature_1.0.0.v20211228-1412/" version="1.0.0.v20211228-1412">
+</feature>
+<feature id="org.eclipse.xtext.runtime" url="features/org.eclipse.xtext.runtime_2.25.0.v20210301-1429/" version="2.25.0.v20210301-1429">
+</feature>
+<feature id="org.eclipse.emf.ecore" url="features/org.eclipse.emf.ecore_2.26.0.v20210924-1718/" version="2.26.0.v20210924-1718">
+</feature>
+<feature id="org.eclipse.equinox.p2.user.ui" url="features/org.eclipse.equinox.p2.user.ui_2.4.1400.v20211104-1616/" version="2.4.1400.v20211104-1616">
+</feature>
+<feature id="org.eclipse.xtext.xbase" url="features/org.eclipse.xtext.xbase_2.25.0.v20210301-1429/" version="2.25.0.v20210301-1429">
+</feature>
+<feature id="org.eclipse.equinox.p2.extras.feature" url="features/org.eclipse.equinox.p2.extras.feature_1.4.1400.v20211104-1616/" version="1.4.1400.v20211104-1616">
+</feature>
+<feature id="javamm.requirements.feature" url="features/javamm.requirements.feature_1.14.0.v20211228-2019/" version="1.14.0.v20211228-2019">
+</feature>
+<feature id="javamm.product.ui.feature" url="features/javamm.product.ui.feature_1.14.0.v20211228-2019/" version="1.14.0.v20211228-2019">
+</feature>
+<feature id="org.eclipse.ecf.core.feature" url="features/org.eclipse.ecf.core.feature_1.6.1.v20211005-1944/" version="1.6.1.v20211005-1944">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.httpclient45.feature" url="features/org.eclipse.ecf.filetransfer.httpclient45.feature_1.1.0.v20211008-2034/" version="1.1.0.v20211008-2034">
+</feature>
+<feature id="org.eclipse.rcp" url="features/org.eclipse.rcp_4.22.0.v20211124-1800/" version="4.22.0.v20211124-1800">
+</feature>
+<feature id="jbase.lib.feature" url="features/jbase.lib.feature_1.0.0.v20211228-1412/" version="1.0.0.v20211228-1412">
+</feature>
+<feature id="org.eclipse.equinox.p2.rcp.feature" url="features/org.eclipse.equinox.p2.rcp.feature_1.4.1400.v20211104-1616/" version="1.4.1400.v20211104-1616">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.feature" url="features/org.eclipse.ecf.filetransfer.feature_3.14.1800.v20210618-0642/" version="3.14.1800.v20210618-0642">
+</feature>
+<feature id="org.eclipse.xtext.ui" url="features/org.eclipse.xtext.ui_2.25.0.v20210301-1429/" version="2.25.0.v20210301-1429">
+</feature>
+<feature id="org.eclipse.platform" url="features/org.eclipse.platform_4.22.0.v20211124-1800/" version="4.22.0.v20211124-1800">
+</feature>
+<feature id="javamm.sdk" plugin-identifier="javamm.ui" url="features/javamm.sdk_1.14.0.v20211228-2019/" version="1.14.0.v20211228-2019">
+</feature>
+<feature id="org.eclipse.e4.rcp" url="features/org.eclipse.e4.rcp_4.22.0.v20211123-0851/" version="4.22.0.v20211123-0851">
+</feature>
+</site>
+</config>

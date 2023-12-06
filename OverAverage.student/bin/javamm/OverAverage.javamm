@@ -1,0 +1,30 @@
+import java.util.List;
+import java.util.ArrayList;
+int[] overAverage(int[] a) {
+	
+	double avg = media(a);
+	List <Integer> list = new ArrayList<>();
+	for(int i=0; i<a.length; i++){
+		
+		if(a[i]>avg){
+			list.add(a[i]);
+		}
+	}
+
+	int[] b = new int[list.size()];
+	for(int i=0;i<b.length;i++){
+		b[i] = list.get(i);
+	}
+	return b;
+}
+
+double media(int[]a){
+	double avg=0;
+	for(int i=0;i<a.length;i++){
+		avg+=a[i];
+	}
+	
+	avg=avg/a.length;
+	return avg;
+	
+}

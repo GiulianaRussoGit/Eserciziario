@@ -1,0 +1,10 @@
+long decimal(int[] a) {
+	long sum=0;
+	int n = a.length -1 ;
+	for(int i=0;i<a.length;i++){
+		
+		sum += (long) a[i]*Math.pow(2,n);
+		n=n-1;
+	}
+	return sum;
+}

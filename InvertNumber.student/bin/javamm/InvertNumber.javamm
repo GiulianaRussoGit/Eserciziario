@@ -1,0 +1,10 @@
+int invertNumber(int n) {
+	int value=0;
+	while(n>0){
+		int a=n%10;
+		n/=10;
+		value=value*10+a;
+	}
+	return value;
+	
+}

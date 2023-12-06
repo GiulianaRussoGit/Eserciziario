@@ -1,0 +1,18 @@
+int roundSum(int a, int b, int c) {
+  a= round(a);
+  b= round(b);
+  c=round(c);
+  return a+b+c;
+}
+
+
+
+int round(int a){
+	int check = a%10;
+	if (check>=5){
+		return a+= 10-check;
+	}
+	else{
+		return a-=check;
+	}
+}

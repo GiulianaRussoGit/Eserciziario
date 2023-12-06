@@ -1,0 +1,15 @@
+int harmonicSum(int x) {
+	int k=2;
+	double sum=1.0;
+	double flag=1.0;
+	
+	while(sum<=x){
+			double armonica= flag+1.0/k;
+			flag=armonica;
+			sum+=armonica;
+			k++;
+			
+	}
+	
+	return k-1;
+} 

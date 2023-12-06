@@ -1,0 +1,9 @@
+int firstLastDigitSum(int n) {
+	String s = Integer.toString(n);
+	char max = s.charAt(0);
+	int i= Character.getNumericValue(max);
+	char min = s.charAt(s.length()-1);
+	int j= Character.getNumericValue(min);
+	return i+j;
+	
+}

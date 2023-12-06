@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="javamm.ui.JavammLaunchConfigurationType">
+    <booleanAttribute key="org.eclipse.debug.core.ATTR_REFRESH_RECURSIVE" value="true"/>
+    <stringAttribute key="org.eclipse.debug.core.ATTR_REFRESH_SCOPE" value="${workspace}"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/IntegerSquareRoot.student/src-gen/javamm/IntegerSquareRoot.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="javamm.IntegerSquareRoot"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="IntegerSquareRoot.student"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.STOP_IN_MAIN" value="false"/>
+</launchConfiguration>

@@ -1,0 +1,19 @@
+boolean range(int n, int l, int r, boolean o) {
+	if(o==true){
+		if(n<l||n>r){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+	else{
+		if(n>=l&&n<=r){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+	
+}

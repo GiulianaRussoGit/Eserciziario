@@ -1,0 +1,21 @@
+boolean palindrome(int[] a) {
+	int l = a.length-1;
+	boolean ispalindrome=true;
+	if(a.length==1){
+		return true;
+	}
+	else{
+		for(int i=0;i<a.length/2;i++){
+		if(a[i]!=a[l]){
+			ispalindrome= false;
+			i=a.length;
+		}
+		else{
+			ispalindrome=true;
+		}
+		l--;
+	}
+	return ispalindrome;
+	}
+	
+}

@@ -1,0 +1,18 @@
+INDEX VERSION 1.131+D:\Java_STS_workspaces\Workspace eserciziario\.metadata\.plugins\org.eclipse.jdt.core
+3489127377.index
+1006940567.index
+1865797976.index
+4223891868.index
+625117424.index
+3912978208.index
+552956026.index
+2117517830.index
+1700928480.index
+3413725848.index
+2723399581.index
+430431418.index
+814864502.index
+4195797282.index
+3886887407.index
+3099619292.index
+324620624.index
